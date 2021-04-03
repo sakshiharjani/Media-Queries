@@ -1,0 +1,339 @@
+body, html {
+  margin: 0vmin;
+  padding: 0vmin;
+  width: 100%;
+
+}
+#mainContainer {
+  margin: 0px 0px 0px 0px;
+  padding: 0px;
+  font-family: montserrat, sans-serif;
+}
+
+@media only screen and (min-width: 768px) {
+
+
+#navBar {
+  position: fixed;
+  margin-top: 0px;
+  padding: 0px;
+  height: 100%;
+  width: 13%;
+  background-color: #000000;
+
+}
+
+#navBarContents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100%;
+}
+
+.navButton {
+  font-style: normal;
+  font-weight: 100;
+  font-size: 4vmin;
+  padding-bottom: 10vmin;
+  text-decoration: none;
+  color: white;
+
+}
+
+.navButton:hover {
+  color: white;
+  text-shadow: 1px 1px black;
+  text-decoration: underline;
+
+}
+
+#headerContainer {
+  margin-left: 50vmin;
+  margin-right: 2vmin;
+  text-align: right;
+}
+
+#header {
+  font-weight: 600;
+  font-style: normal;
+  font-size: 6vmin;
+  text-decoration: underline;
+
+}
+
+#tagLine {
+  /* margin-left: 77vmin; */
+  font-style: italic;
+  text-decoration: none;
+  font-weight: 200;
+  font-size: 3vmin;
+  margin-right: 1vmin;
+}
+
+#pictureGrid {
+
+  height: auto;
+  align-self: start;
+  padding-left: 16%;
+  /* margin-left: 16%; */
+  margin-top: 3vmin;
+  margin-bottom: 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#galleryVertical {
+  width: 300px;
+  height: 400px;
+}
+
+#galleryHorizontal {
+  width: 350px;
+  height: 263px;
+}
+
+.row1 {
+  /* background-image: url(picture1.jpg); */
+  /* background-size: 200px; */
+  /* display: block; */
+  width: 300px;
+  height: 400px;
+  margin: 10vmin 30px 0 35px;
+  object-fit: cover;
+  display: flex;
+  justify-content: space-between;
+  /* box-shadow found on w3schools */
+  box-shadow: 10px 10px 5px grey;
+  border-style: inset;
+  border-width: 15px;
+  border-color: #404040;
+
+}
+
+
+
+.row2 {
+  width: 350px;
+  height: 263px;
+  margin: 20vmin 10px 0 5px;
+  object-fit: cover;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 10px 10px 5px grey;
+  border-style: inset;
+  border-width: 15px;
+  border-color: #404040;
+}
+
+
+.row3 {
+  width: 300px;
+  height: 400px;
+  margin: 20vmin 30px 0 35px;
+  object-fit: cover;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 10px 10px 5px grey;
+  border-style: inset;
+  border-width: 15px;
+  border-color: #404040;
+}
+
+
+}
+
+#footer {
+  width: 100%;
+  background-color: #000000;
+  margin: 20px 0px 0px 0px;
+  position: absolute;
+}
+
+#footerContents{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 15%;
+  color: white;
+}
+
+p a {
+  color: white;
+}
+
+.navButton:hover {
+  color: white;
+  text-shadow: 1px 1px black;
+  text-decoration: underline;
+}
+.row1:hover{
+    cursor: pointer;
+    box-shadow: 15px 15px 10px grey;
+  }
+
+.row1:active{
+    cursor: pointer;
+    box-shadow: 10px 10px 5px grey;
+    transform: translateY(2px);
+    /* translate found on w3 schools */
+  }
+
+  .row2:hover{
+    cursor: pointer;
+    box-shadow: 15px 15px 10px grey;
+  }
+  .row2:active{
+    cursor:pointer;
+    box-shadow: 10px 10px 5px grey;
+    transform: translateY(2px);
+  }
+
+  .row3:hover{
+    cursor: pointer;
+    box-shadow: 15px 15px 10px grey;
+  }
+  .row3:active{
+    cursor:pointer;
+    box-shadow: 10px 10px 5px grey;
+    transform: translateY(2px);
+  }
+
+
+
+@media only screen and (max-width: 768px) {
+  #navBar{
+  position: fixed;
+  margin-top: 0px;
+  padding: 0px;
+  height: 100%;
+  width: 13%;
+  background-color: #000000;
+}
+
+  #navBarContents{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .navButton {
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 3vmin;
+    padding-bottom: 10vmin;
+    text-decoration: none;
+    color: white;
+
+  }
+
+  #headerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20%;
+    /* margin-right: 17vmin; */
+    text-align: center;
+    /* padding-left: 100px; */
+
+  }
+
+  #header {
+    font-weight: 600;
+    font-style: normal;
+    font-size: 6vmin;
+    text-decoration: underline;
+  }
+
+  #tagLine {
+    margin-left: 0px;
+    text-align: center;
+    font-style: italic;
+    text-decoration: none;
+    font-weight: 200;
+    font-size: 3vmin;
+    margin-right: 1vmin;
+  }
+
+  #pictureGrid {
+    height: auto;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20%;
+    padding-left: 3%;
+    padding-right: 25%;
+    /* margin-right: 25%; */
+    /* margin-left: 16%; */
+    margin-top: 3vmin;
+    margin-bottom: 100px;
+    /* display: flex;
+    flex-wrap: wrap; */
+
+  }
+
+  #galleryVertical {
+    width: 100%;
+    height: 400px;
+  }
+
+  #galleryHorizontal {
+    width: 100%;
+    height: 263px;
+  }
+
+  .row1 {
+    /* margin: 10vmin 65px 0px 0px; */
+
+    width: 300px;
+    height: 400px;
+    margin: 10vmin 30px 0 0px;
+    object-fit: cover;
+    display: flex;
+    justify-content: space-between;
+    /* box-shadow found on w3schools */
+    box-shadow: 10px 10px 5px grey;
+    border-style: inset;
+    border-width: 15px;
+    border-color: #404040;
+
+  }
+
+  .row2 {
+    /* margin: 20vmin 10vmin 0vmin 0px; */
+
+    width: 350px;
+    height: 263px;
+    margin: 20vmin 10px 0 -25px;
+    object-fit: cover;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 10px 10px 5px grey;
+    border-style: inset;
+    border-width: 15px;
+    border-color: #404040;
+
+  }
+
+  .row3 {
+    /* margin: 10vmin 65px 0px 0px; */
+
+    width: 300px;
+    height: 400px;
+    margin: 10vmin 30px 0 0px;
+    object-fit: cover;
+    display: flex;
+    justify-content: space-between;
+    /* box-shadow found on w3schools */
+    box-shadow: 10px 10px 5px grey;
+    border-style: inset;
+    border-width: 15px;
+    border-color: #404040;
+
+   }
+
+}
