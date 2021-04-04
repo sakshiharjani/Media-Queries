@@ -272,7 +272,7 @@ p a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 37%;
+    margin-left: 33%;
     /* padding-left: 35%; */
     padding-right: 25%;
     /* margin-right: 25%; */
@@ -286,20 +286,20 @@ p a {
 
   #galleryVertical {
     width: 100%;
-    height: 40vw;
+    height: 53vw;
   }
 
   #galleryHorizontal {
     width: 100%;
-    height: 26.3vw;
+    height: 32vw;
     padding-left: -10px;
   }
 
   .row1 {
     /* margin: 10vmin 65px 0px 0px; */
 
-    width: 30vw;
-    height: 40vw;
+    width: 40vw;
+    height: 53vw;
     margin: 15vmin 30px 0 0px;
     object-fit: cover;
     display: flex;
@@ -315,9 +315,9 @@ p a {
   .row2 {
     /* margin: 20vmin 10vmin 0vmin 0px; */
 
-    width: 35vw;
-    height: 26.3vw;
-    margin: 20vmin 10px 0 -10px;
+    width: 45vw;
+    height: 32vw;
+    margin: 15vmin 10px 0 -10px;
     object-fit: cover;
     display: flex;
     justify-content: space-between;
@@ -332,8 +332,8 @@ p a {
   .row3 {
     /* margin: 10vmin 65px 0px 0px; */
 
-    width: 30vw;
-    height: 40vw;
+    width: 40vw;
+    height: 53vw;
     margin: 15vmin 30px 0 0px;
     object-fit: cover;
     display: flex;
