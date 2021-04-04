@@ -199,17 +199,26 @@ p a {
 
 
 @media only screen and (max-width: 600px) {
+  * {
+    transition: 2s;
+  }
+
+  html {
+    background-color: #DCDCDC;
+    /* transition: 3s; */
+  }
+
   #navBar {
-  position: fixed;
-  margin-top: 0px;
-  padding: 0px;
-  height: 100%;
-  width: 13%;
-  background-color: #000000;
+    position: fixed;
+    margin-top: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 13%;
+    background-color: #000000;
 }
 
   #navBarContents{
-    margin-top: 200px;
+    margin-top: 270px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -221,7 +230,7 @@ p a {
     flex-direction: column;
     font-style: normal;
     font-weight: 100;
-    font-size: 3vmin;
+    font-size: 4vmin;
     padding-bottom: 10vmin;
     text-decoration: none;
     color: white;
@@ -233,7 +242,7 @@ p a {
     flex-direction: column;
     justify-content: center;
     padding-top: 10%;
-    margin-left: 20%;
+    margin-left: 14%;
     /* margin-right: 17vmin; */
     text-align: center;
     /* padding-left: 100px; */
@@ -263,8 +272,8 @@ p a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 20vmin;
-    padding-left: 3%;
+    margin-left: 37%;
+    /* padding-left: 35%; */
     padding-right: 25%;
     /* margin-right: 25%; */
     /* margin-left: 16%; */
@@ -277,19 +286,20 @@ p a {
 
   #galleryVertical {
     width: 100%;
-    height: 400px;
+    height: 40vw;
   }
 
   #galleryHorizontal {
     width: 100%;
-    height: 263px;
+    height: 26.3vw;
+    padding-left: -10px;
   }
 
   .row1 {
     /* margin: 10vmin 65px 0px 0px; */
 
-    width: 300px;
-    height: 400px;
+    width: 30vw;
+    height: 40vw;
     margin: 15vmin 30px 0 0px;
     object-fit: cover;
     display: flex;
@@ -305,9 +315,9 @@ p a {
   .row2 {
     /* margin: 20vmin 10vmin 0vmin 0px; */
 
-    width: 350px;
-    height: 263px;
-    margin: 20vmin 10px 0 -25px;
+    width: 35vw;
+    height: 26.3vw;
+    margin: 20vmin 10px 0 -10px;
     object-fit: cover;
     display: flex;
     justify-content: space-between;
@@ -316,13 +326,14 @@ p a {
     border-width: 15px;
     border-color: #404040;
 
+
   }
 
   .row3 {
     /* margin: 10vmin 65px 0px 0px; */
 
-    width: 300px;
-    height: 400px;
+    width: 30vw;
+    height: 40vw;
     margin: 15vmin 30px 0 0px;
     object-fit: cover;
     display: flex;
